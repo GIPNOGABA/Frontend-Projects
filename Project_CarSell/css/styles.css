@@ -1,0 +1,223 @@
+@font-face { 
+    font-family: "Montserrat"; 
+    src: url("../font/Montserrat-Regular.ttf") format("truetype");
+    font-weight: normal; 
+} 
+@font-face { 
+    font-family: "Montserrat-Bold"; 
+    src: url("../font/Montserrat-Bold.ttf") format("truetype");
+    font-weight: normal; 
+} 
+*{
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+body{
+    padding: 0;
+    margin: 0;
+    width: 1375px;
+}
+header{
+    background-image: url(../img/Header_Image.png);
+    display: flex;
+    flex-wrap: wrap;
+    height: 680px;
+}
+header img{
+    width: 280px;
+    height: 85px;
+    margin: 40px 100px;
+}
+nav{
+    display: flex;
+    padding: 70px 0 100px 100px;
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 34px;
+    font-size: large;
+    transition: 0.3s ease;
+    border-radius: 10px;
+}
+nav a:hover{
+    background-color: #130E27;
+    padding: 10px 24px;
+    margin: 0 10px;
+}
+.Header_text{
+    margin: 0 0 100px 100px;
+}
+header h1{
+    font-size: 90px;
+    font-family: Montserrat-Bold;
+    text-transform: uppercase;
+    line-height: 30px;
+    color: white;
+}
+.Sell{
+    color: #130E27;
+}
+header p{
+    width: 600px;
+    color: white;
+    line-height: 30px;
+    font-size: 20px;
+}
+.Services{
+    background-color: #EFEFEF;
+    height: 520px;
+}
+.main_services_header{
+    padding: 70px 100px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.Our{
+    color: #C62314;
+}
+.services{
+    color: #130E27;
+}
+.icons_and_text{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px 75px 100px;
+}
+.main_services_divs{
+    width: 220px;
+    text-align: center;
+}
+.fa{
+    padding: 25px 0;
+    font-size: 140px;
+    transition: 0.3s ease;
+}
+.links{
+    text-decoration: none;
+    color: #161616;
+}
+.fa:hover{
+    color: #C62314;
+}
+.main_services_links{
+    text-align: center;
+    font-size: 20px;
+}
+.Story{
+    height: 124px;
+    background-color: #130E27;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.Story *{
+    margin: auto 0;
+}
+.Story p{
+    color: #EFEFEF;
+    width: 600px;
+}
+.Story button{
+    background-color: #C62314;
+    color: #EFEFEF;
+    text-transform: uppercase;
+    font-size: 22px;
+    border-radius: 5px;
+    border: 0;
+    width: 270px;
+    height: 64px;
+    transition: 0.3s ease;
+    will-change: transform;
+}
+.Story button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.Story button:active{
+    background-color: #902218;
+}
+.Pricing{
+    height: 780px;
+    background-color: #EFEFEF;
+}
+.pricing_header{
+    text-align: center;
+    line-height: 200px; 
+    margin: 0;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #130E27;
+}
+.Prices{
+    display: flex;
+    padding: 0 115px;
+    justify-content: space-between;
+}
+.pricing_divs{
+    background-color: white;
+    width: 340px;
+    height: 500px;
+    text-align: center;
+}
+.pricing_divs h5{
+    font-size: 22px;
+}
+.pricing_divs h1{
+    font-size: 50px;
+    color: #C62314;
+    text-transform: uppercase;
+}
+.pricing_divs ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.pricing_divs li{
+    line-height: 40px;
+    font-size: 20px;
+}
+.pricing_divs button{
+    width: 205px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0;
+    background: #130E27;
+    color: #EFEFEF;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: 30px;
+    transition: 0.3s ease;
+    will-change: transform;
+}
+.pricing_divs button:hover{
+    background: #C62314;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.pricing_divs button:active{
+    background-color: #902218;
+}
+footer{
+    height: 190px;
+    background-color: #130E27;
+    padding: 0 100px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+footer *{
+    margin: auto 0;
+}
+footer p{
+    color: #EFEFEF;
+    font-size: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: #C62314;
+}
+
+
+
